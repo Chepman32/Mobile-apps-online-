@@ -1,5 +1,9 @@
 # Mobile Apps Collection
 
-This repository contains sample React Native implementations inspired by various app ideas. Currently, a starter project for the **Habit Tracker with AI Coach** is provided under `HabitTrackerAICoach/`.
+This repository contains sample React Native implementations inspired by various app ideas. Projects include:
 
-Each project uses Expo and Redux for state management. Additional apps can be added following a similar structure.
+- **FitCraft** – a minimal Expo skeleton with tab navigation using Zustand.
+- **Habit Tracker with AI Coach** – a basic habit tracker using Redux.
+- **Budget Buddy** – a lightweight budget tracker using Zustand.
+
+Each project uses Expo and demonstrates simple navigation and state management. Additional apps can be added following a similar structure.
