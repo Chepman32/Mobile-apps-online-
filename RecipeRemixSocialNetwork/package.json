@@ -1,0 +1,22 @@
+{
+  "name": "recipe-remix-social-network",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "^48.0.0",
+    "react": "18.2.0",
+    "react-native": "0.71.8",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "react-redux": "^8.1.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "react-native-elements": "^3.4.3",
+    "expo-status-bar": "^1.4.2"
+  }
+}
