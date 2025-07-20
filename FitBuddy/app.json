@@ -1,0 +1,120 @@
+{
+  "expo": {
+    "name": "FitBuddy",
+    "slug": "fitbuddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#667eea"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fitbuddy.app",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "FitBuddy needs access to your health data to track your workouts and sync with Apple Health.",
+        "NSHealthUpdateUsageDescription": "FitBuddy needs permission to update your health data with workout information.",
+        "NSCameraUsageDescription": "FitBuddy needs camera access to take profile pictures and share workout photos.",
+        "NSLocationWhenInUseUsageDescription": "FitBuddy needs location access to track your outdoor workouts and provide accurate distance measurements.",
+        "NSMicrophoneUsageDescription": "FitBuddy needs microphone access for voice notes during workouts."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#667eea"
+      },
+      "package": "com.fitbuddy.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACTIVITY_RECOGNITION",
+        "android.permission.WAKE_LOCK",
+        "android.permission.VIBRATE",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow FitBuddy to use your location to track outdoor workouts and provide accurate distance measurements."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow FitBuddy to access your camera to take profile pictures and share workout photos."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#667eea",
+          "sounds": ["./assets/notification-sound.wav"]
+        }
+      ],
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Allow FitBuddy to access motion sensors for accurate workout tracking."
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow FitBuddy to access your microphone for voice notes during workouts."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    },
+    "owner": "fitbuddy",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/your-project-id"
+    },
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "color": "#667eea",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "FitBuddy"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "your-sentry-org",
+            "project": "fitbuddy"
+          }
+        }
+      ]
+    }
+  }
+}
