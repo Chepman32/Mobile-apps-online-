@@ -50,3 +50,4 @@ app ideas. Each project is a minimal skeleton meant for experimentation.
 - **SnapHabit** - photo-based habit tracker using Zustand
 - **BrainDuel** - multiplayer brain game prototype with Redux
 - **PlantPal AR** - AR plant companion skeleton using MobX
+- **GlowHabit** - gamified micro-habit tracker skeleton using zustand
