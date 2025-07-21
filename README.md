@@ -20,6 +20,56 @@ This repository contains skeleton implementations for various mobile app ideas d
 - `daily-riddle-solver`
 - `plant-swap-community`
 - `mood-music-playlist`
+- `trailforge`
+- `rhythmchef`
+- `echogarden`
+- `quicksketchar`
+- `minddash`
+- `voiceforgerpg`
+- `fitpet`
+- `scriptease`
+- `recyclar`
+- `pulsepix`
+- `trekledger`
+- `skillswap-minicourses`
+- `sleepstories-kids`
+- `cachequest`
+- `quirkjournal`
+- `bytebento`
+- `retrocamlive`
+- `codebuddyjunior`
+- `versevoyage`
+- `quantifyme`
+- `homehero`
+- `tempotuner`
+- `shelfshare`
+- `parkourcam`
+- `eventmosaic`
+- `globetrotchat`
+- `moodmeal`
+- `chordtap`
+- `swapshift`
+- `zenpixel`
+- `quiksignar`
+- `soundsculpt`
+- `civicsdash`
+- `timewarpcam`
+- `pawnmaster`
+- `snapstencil`
+- `micromemo`
+- `craftcollab`
+- `mythicmakers`
+- `carbcounterar`
+- `danceduel`
+- `quietspace`
+- `memorymatchkids`
+- `noteflick`
+- `cycloshield`
+- `plantpalmarket`
+- `tunetrail`
+- `artheist`
+- `chefchain`
+- `goalglider`
 
 These projects are simplified examples showcasing basic structure only.
 # Mobile Apps Collection
@@ -50,3 +100,4 @@ app ideas. Each project is a minimal skeleton meant for experimentation.
 - **SnapHabit** - photo-based habit tracker using Zustand
 - **BrainDuel** - multiplayer brain game prototype with Redux
 - **PlantPal AR** - AR plant companion skeleton using MobX
+\nAdditional skeletons for app ideas 51-100 are available in the apps/ folder. Each provides a minimal Expo project with a placeholder screen.
