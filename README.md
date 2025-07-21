@@ -94,11 +94,14 @@ This repository contains sample React Native implementations inspired by various
 app ideas. Each project is a minimal skeleton meant for experimentation.
 
 ## Available Projects
+- **HabitForge** - basic gamified habit tracker using Zustand
 - **FitCraft** - simple tab-based layout using zustand
 - **HabitTrackerAICoach** - Redux-powered habit tracker starter
 - **MoodRipple** - mood journaling concept using Redux Toolkit
 - **SnapHabit** - photo-based habit tracker using Zustand
 - **BrainDuel** - multiplayer brain game prototype with Redux
 - **PlantPal AR** - AR plant companion skeleton using MobX
+
+Additional skeletons for app ideas 51-100 are available in the apps/ folder. Each provides a minimal Expo project with a placeholder screen.
 - **GlowHabit** - gamified micro-habit tracker skeleton using zustand
 \nAdditional skeletons for app ideas 51-100 are available in the apps/ folder. Each provides a minimal Expo project with a placeholder screen.
