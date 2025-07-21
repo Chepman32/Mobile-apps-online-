@@ -70,6 +70,16 @@ This repository contains skeleton implementations for various mobile app ideas d
 - `artheist`
 - `chefchain`
 - `goalglider`
+- `scribesphere`
+- `debtslayerrpg`
+- `quest`
+- `zenithgarden`
+- `creatorquest`
+- `intellect`
+- `blueprintar`
+- `pawsitiveroutes`
+- `wastenot`
+- `tripweave`
 
 These projects are simplified examples showcasing basic structure only.
 # Mobile Apps Collection
