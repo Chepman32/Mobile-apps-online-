@@ -1,0 +1,16 @@
+{
+  "name": "fitflash",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "start": "expo start"
+  },
+  "dependencies": {
+    "expo": "~48.0.18",
+    "react": "^18.2.0",
+    "react-native": "^0.71.8",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "zustand": "^4.3.9"
+  }
+}
