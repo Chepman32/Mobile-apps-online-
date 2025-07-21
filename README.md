@@ -103,3 +103,5 @@ app ideas. Each project is a minimal skeleton meant for experimentation.
 - **PlantPal AR** - AR plant companion skeleton using MobX
 
 Additional skeletons for app ideas 51-100 are available in the apps/ folder. Each provides a minimal Expo project with a placeholder screen.
+- **GlowHabit** - gamified micro-habit tracker skeleton using zustand
+\nAdditional skeletons for app ideas 51-100 are available in the apps/ folder. Each provides a minimal Expo project with a placeholder screen.

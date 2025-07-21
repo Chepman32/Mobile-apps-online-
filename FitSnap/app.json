@@ -3,6 +3,7 @@
     "name": "FitSnap",
     "slug": "fitsnap",
     "version": "1.0.0",
-    "sdkVersion": "48.0.0"
+    "sdkVersion": "51.0.0"
+
   }
 }
