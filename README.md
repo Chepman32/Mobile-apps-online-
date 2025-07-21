@@ -100,3 +100,4 @@ app ideas. Each project is a minimal skeleton meant for experimentation.
 - **SnapHabit** - photo-based habit tracker using Zustand
 - **BrainDuel** - multiplayer brain game prototype with Redux
 - **PlantPal AR** - AR plant companion skeleton using MobX
+\nAdditional skeletons for app ideas 51-100 are available in the apps/ folder. Each provides a minimal Expo project with a placeholder screen.
